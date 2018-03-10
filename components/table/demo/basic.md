@@ -34,12 +34,12 @@ const columns = [{
   key: 'action',
   render: (text, record) => (
     <span>
-      <a href="#">Action 一 {record.name}</a>
+      <a href="#">修改/a>
       <Divider type="vertical" />
-      <a href="#">Delete</a>
+      <a href="#">删除</a>
       <Divider type="vertical" />
       <a href="#" className="ant-dropdown-link">
-        More actions <Icon type="down" />
+       增加<Icon type="down" />
       </a>
     </span>
   ),
